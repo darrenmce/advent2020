@@ -1,7 +1,6 @@
-import fs from 'fs';
-import path from 'path';
+import { getTextInput } from '../lib/util';
 
-const input = fs.readFileSync(path.resolve(__dirname, 'input.txt'), { encoding: 'utf-8' });
+const input = getTextInput(__dirname, 'input.txt');
 
 function parsePassword(line: string): [number, number, string, string] {
   const [range, char, password] = line.split(' ');

@@ -1,3 +1,5 @@
+import { multiplier } from '../lib/util';
+
 const input: number[] = require('./input.json');
 
 function findTwoThatAddTo(input: number[], addTo: number) {
@@ -22,8 +24,6 @@ function findThreeThatAddTo(input: number[], addTo: number) {
   }
   return null;
 }
-
-const multiplier = (x: number, y: number) => x * y;
 
 
 // part one
