@@ -6,3 +6,5 @@ export function getTextInput(...paths: string[]): string {
 }
 
 export const multiplier = (x: number, y: number) => x * y;
+
+export const sumReducer = (t: number, val: number): number => t + val;
