@@ -2,4 +2,5 @@ input.*
 node_modules
 package-lock.json
 .idea
+test[0-9].*
 test.*
